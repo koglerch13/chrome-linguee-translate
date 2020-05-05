@@ -6,7 +6,7 @@ Scaffold created with [Yeoman](https://github.com/yeoman/generator-chrome-extens
 
 
 ## Use
-[Demo](demo.gif "Demo")
+![Demo](demo.gif "Demo")
 Quickly search for translations between german and english by typing. Results will be updated as you type.
 Press ENTER to see the results on Linguee.com.
 
