@@ -1,0 +1,27 @@
+{
+  "manifest_version": 3,
+  "name": "linguee-translate",
+  "description": "Linguee Translate Plugin",
+  "version": "1.1.0",
+  "icons": {
+    "16": "images/icon-16.png",
+    "48": "images/icon-48.png",
+    "128": "images/icon-128.png"
+  },
+  "action": {
+    "default_popup": "html/popup.html",
+    "default_icon": "images/icon-48.png",
+    "default-title": "linguee-translate"
+  },
+  "host_permissions": [
+    "https://www.linguee.com/*"
+  ],
+  "commands": {
+    "_execute_action": {
+      "suggested_key": {
+        "default": "Ctrl+Shift+L",
+        "mac": "Command+Shift+L"
+      }
+    }
+  }
+}

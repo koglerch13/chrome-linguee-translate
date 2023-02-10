@@ -1,0 +1,30 @@
+<!doctype html>
+<html>
+
+<head>
+  <meta charset="utf-8">
+  <link href="../css/popup.css" rel="stylesheet">
+</head>
+
+<body>
+  <div id="main">
+    <div id="image">
+      <img src="../images/linguee-logo.svg" />
+    </div>
+    <div class="lQueryHeader__input_container">
+      <input placeholder="Search..." type="text" name="query" id="query" maxlength="1000" autocomplete="off"
+        autocorrect="off" autocapitalize="off" spellcheck="false" value="" tabindex="1" autofocus="">
+    </div>
+    <div id="press-enter">
+      Press Enter to open Linguee.com
+    </div>
+    <div id="results"></div>
+    <div id="shortcut">
+      Go to <a href="chrome://extensions/shortcuts">chrome://extensions/shortcuts</a> to set a shortcut
+    </div>
+  </div>
+
+  <script src="../js/popup.js"></script>
+</body>
+
+</html>

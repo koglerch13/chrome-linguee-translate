@@ -11,12 +11,6 @@ var selectedItem = null;
 updateVisibility();
 initLinks();
 
-chrome.commands.getAll(function(commands) {
-  if (commands && commands.length) {
-    shortcut.style.display = 'none';
-  }
-});
-
 document.addEventListener('keydown', function(event) {
   var isUpArrow = event.keyCode == '38';
   var isDownArrow = event.keyCode == '40';

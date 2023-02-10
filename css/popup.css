@@ -4,15 +4,20 @@ body {
   color: #3c3c3c;
   -webkit-text-size-adjust: 100%
 }
+
 #main {
   width: 350px;
 }
-body, input {
-  font-family: Avenir Next,Roboto Condensed,Arial,sans-serif
+
+body,
+input {
+  font-family: Avenir Next, Roboto Condensed, Arial, sans-serif
 }
+
 .autocompletion .autocompletion_item .main_item {
   color: #265180
 }
+
 .autocompletion .main_item {
   display: inline;
   margin-right: 10px;
@@ -43,11 +48,13 @@ body, input {
   margin-left: 10px
 }
 
-.autocompletion .autocompletion_item .translation_item,.autocompletion .autocompletion_item .inflection_item {
+.autocompletion .autocompletion_item .translation_item,
+.autocompletion .autocompletion_item .inflection_item {
   color: #333
 }
 
-.autocompletion .autocompletion_item.isForeignTerm .translation_item,.autocompletion .autocompletion_item.isForeignTerm .inflection_item {
+.autocompletion .autocompletion_item.isForeignTerm .translation_item,
+.autocompletion .autocompletion_item.isForeignTerm .inflection_item {
   color: #265180
 }
 
@@ -81,7 +88,8 @@ body, input {
   margin-right: 5px
 }
 
-.autocompletion .autocompletion_item.selected, .autocompletion .autocompletion_item.selected:hover {
+.autocompletion .autocompletion_item.selected,
+.autocompletion .autocompletion_item.selected:hover {
   background-color: #d3d9dd
 }
 
@@ -136,11 +144,11 @@ body, input {
 }
 
 .lQueryHeader__input_container>input {
-  background: none!important;
-  border: none!important;
-  color: #000!important;
-  padding: 5px 6px 5px 10px!important;
-  width: calc(100% - 60px)!important
+  background: none !important;
+  border: none !important;
+  color: #000 !important;
+  padding: 5px 6px 5px 10px !important;
+  width: calc(100% - 60px) !important
 }
 
 *:focus {
@@ -160,8 +168,8 @@ body, input {
 #image {
   margin-top: 10px;
   width: 100px;
-  margin-left:auto;
-  margin-right:auto;
+  margin-left: auto;
+  margin-right: auto;
 }
 
 #image img {
@@ -182,7 +190,7 @@ body, input {
   text-align: center;
   margin-bottom: 10px;
   font-weight: 400;
-  font-size: 14px;
+  font-size: 10px;
   color: #888;
 }
 
