@@ -10,3 +10,8 @@ Press ENTER to see the results on Linguee.com.
 Default Shortcut: CTRL+SHIFT+L (Windows, Linux); CMD+SHIFT+L (Mac)
 
 Install here: [Chrome Store](https://chrome.google.com/webstore/detail/linguee-translate/fjjfjlcihmoeenjbakdgjfbpdcgimlcd)
+
+## To do
+- [ ] Selectable languages
+- [ ] Version for Edge 
+- [ ] Version for Firefox
